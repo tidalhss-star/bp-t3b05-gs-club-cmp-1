@@ -1,370 +1,769 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>강서 클럽 찐후기 및 가격 가이드 | 강서 클럽 비교</title>
-  <meta name="description" content="강서구 일대 및 마곡 인근에서 주말 밤 화끈하게 댄스 플로어를 달구며 힐링할 수 있는 가장 힙한 클럽 가이드 비교 분석.">
-  <meta name="keywords" content="강서 클럽 비교, 강서 클럽, 강서 클럽 추천, 강서 클럽 예약, 강서 클럽 가격">
-  <link rel="canonical" href="https://t3b05-gs-club-cmp-1.pages.dev/">
-  <meta name="bpaas-design-system" content="midnight-glass">
-  <meta name="bpaas-design-theme" content="kr-t3b05-gs-club-cmp-1">
-  <style>
-    
-    :root {
-      --bg-dark: #090514;
-      --bg-card: rgba(255, 255, 255, 0.03);
-      --border-color: rgba(255, 255, 255, 0.08);
-      --primary-neon: #2e1065;
-      --accent-neon: #ec4899;
-      --text-main: #f4f4f5;
-      --text-muted: #a1a1aa;
-    }
-    
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    
-    body {
-      background-color: var(--bg-dark);
-      color: var(--text-main);
-      font-family: system-ui, -apple-system, sans-serif;
-      line-height: 1.7;
-      overflow-x: hidden;
-    }
-    
-    .glow-header {
-      background: rgba(0, 0, 0, 0.5);
-      backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border-color);
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-    
-    .nav-container {
-      max-width: 1100px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 16px 20px;
-    }
-    
-    .logo-glow {
-      font-size: 1.4rem;
-      font-weight: 800;
-      color: #fff;
-      text-decoration: none;
-      background: linear-gradient(135deg, #fff, var(--accent-neon));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-    }
-    
-    .nav-links a {
-      color: var(--text-muted);
-      text-decoration: none;
-      margin-left: 24px;
-      font-size: 0.95rem;
-      font-weight: 600;
-      transition: color 0.3s;
-    }
-    
-    .nav-links a:hover {
-      color: var(--accent-neon);
-    }
-    
-    .hero-glow {
-      padding: 120px 20px 80px;
-      text-align: center;
-      background: radial-gradient(circle at top, var(--primary-neon) 0%, transparent 70%);
-      position: relative;
-    }
-    
-    .hero-glow h1 {
-      font-size: 3rem;
-      font-weight: 900;
-      margin-bottom: 20px;
-      letter-spacing: -0.05em;
-      line-height: 1.2;
-    }
-    
-    .gradient-txt {
-      background: linear-gradient(135deg, #fff, var(--accent-neon));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    
-    .hero-glow p {
-      font-size: 1.2rem;
-      color: var(--text-muted);
-      max-width: 700px;
-      margin: 0 auto 30px;
-    }
-    
-    .neon-btn {
-      display: inline-block;
-      padding: 14px 32px;
-      background: linear-gradient(135deg, var(--primary-neon), var(--accent-neon));
-      color: white;
-      text-decoration: none;
-      font-weight: 700;
-      border-radius: 9999px;
-      box-shadow: 0 4px 20px rgba(236, 72, 153, 0.3);
-      transition: all 0.3s ease;
-    }
-    
-    .neon-btn:hover {
-      transform: scale(1.03);
-      box-shadow: 0 6px 25px rgba(236, 72, 153, 0.6);
-    }
-    
-    .sec-wrap {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 80px 20px;
-    }
-    
-    .glass-box {
-      background: var(--bg-card);
-      border: 1px solid var(--border-color);
-      border-radius: 20px;
-      padding: 40px;
-      backdrop-filter: blur(8px);
-      margin-bottom: 40px;
-    }
-    
-    .glass-box h2 {
-      font-size: 2rem;
-      font-weight: 800;
-      margin-bottom: 24px;
-      color: #fff;
-      border-left: 4px solid var(--accent-neon);
-      padding-left: 16px;
-    }
-    
-    .glass-box p {
-      font-size: 1.05rem;
-      color: var(--text-muted);
-      margin-bottom: 20px;
-    }
-    
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 24px;
-      margin-top: 32px;
-    }
-    
-    .mini-card {
-      background: rgba(255, 255, 255, 0.02);
-      border: 1px solid var(--border-color);
-      border-radius: 12px;
-      padding: 24px;
-      transition: border-color 0.3s, transform 0.3s;
-    }
-    
-    .mini-card:hover {
-      border-color: var(--accent-neon);
-      transform: translateY(-2px);
-    }
-    
-    .mini-card h3 {
-      font-size: 1.25rem;
-      font-weight: 700;
-      color: #fff;
-      margin-bottom: 12px;
-    }
-    
-    .mini-card p {
-      font-size: 0.95rem;
-      color: var(--text-muted);
-      margin-bottom: 0;
-    }
-    
-    .ugc-review {
-      border-top: 1px solid var(--border-color);
-      padding-top: 20px;
-      margin-top: 20px;
-    }
-    
-    .reviewer-meta {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.85rem;
-      color: var(--accent-neon);
-      margin-bottom: 8px;
-      font-weight: 600;
-    }
-    
-    .reviewer-text {
-      font-size: 0.95rem;
-      color: var(--text-main);
-      font-style: italic;
-    }
-    
-    .phone-bar {
-      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.05), transparent);
-      padding: 16px;
-      border-radius: 8px;
-      margin: 20px 0;
-      font-size: 1.3rem;
-      font-weight: 800;
-      letter-spacing: 0.05em;
-    }
-    
-    .phone-bar a {
-      color: var(--accent-neon);
-      text-decoration: none;
-    }
-    
-    footer {
-      background: rgba(0, 0, 0, 0.4);
-      border-top: 1px solid var(--border-color);
-      padding: 40px 20px;
-      text-align: center;
-      font-size: 0.9rem;
-      color: var(--text-muted);
-    }
-    
-    footer p {
-      margin-bottom: 8px;
-    }
-    
-    footer a {
-      color: var(--text-muted);
-      text-decoration: none;
-      margin: 0 10px;
-    }
-    
-    footer a:hover {
-      color: var(--accent-neon);
-    }
-    
-    @media(max-width: 768px) {
-      .hero-glow h1 {
-        font-size: 2.2rem;
-      }
-      .nav-links {
-        display: none;
-      }
-      .glass-box {
-        padding: 24px;
-      }
-    }
-  
-  </style>
-  <script type="application/ld+json">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-raw-concrete">
+    <title>강서 클럽 비교 | Raw Concrete - 너의 클럽을 증명해</title>
+    <meta name="description" content="강서구 클럽, 가짜 빼고 진짜만 비교한다. 유일무이한 강서 클럽 랭킹 & 리뷰. 클럽 선택, 더 이상 찍지 마라. Raw Concrete가 까발린다.">
+    <meta name="keywords" content="강서 클럽, 강서 클럽 비교, 강서구 클럽 추천, 강서 클럽 순위, 강서구 유흥, 클럽 리뷰, 강서 클럽 리뷰, raw concrete">
+    <link rel="canonical" href="https://t3b05-gs-club-cmp-1.vercel.app/">
+    <meta property="og:title" content="강서 클럽 비교 | Raw Concrete - 너의 클럽을 증명해">
+    <meta property="og:description" content="강서구 클럽, 가짜 빼고 진짜만 비교한다. 유일무이한 강서 클럽 랭킹 & 리뷰. Raw Concrete가 까발린다.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://t3b05-gs-club-cmp-1.vercel.app/">
+    <meta property="og:image" content="https://t3b05-gs-club-cmp-1.vercel.app/og-raw.jpg">
+    <meta property="og:locale" content="ko_KR">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="강서 클럽 비교 | Raw Concrete - 너의 클럽을 증명해">
+    <meta name="twitter:description" content="강서구 클럽, 가짜 빼고 진짜만 비교한다. 유일무이한 강서 클럽 랭킹 & 리뷰. Raw Concrete가 까발린다.">
+    <meta name="twitter:image" content="https://t3b05-gs-club-cmp-1.vercel.app/og-raw.jpg">
+    <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "강서 클럽 가이드",
-      "image": "https://t3b05-gs-club-cmp-1.pages.dev/og.jpg",
-      "telephone": "010-6279-0862",
-      "url": "https://t3b05-gs-club-cmp-1.pages.dev/",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "강서",
-        "addressCountry": "KR"
-      }
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Raw Concrete - 강서 클럽 비교",
+        "description": "강서구 클럽 비교 리뷰 플랫폼. 진짜 리뷰로 클럽을 까발린다.",
+        "url": "https://t3b05-gs-club-cmp-1.vercel.app/",
+        "telephone": "+82-10-6279-0862",
+        "areaServed": {
+            "@type": "City",
+            "name": "서울특별시 강서구"
+        }
     }
-  </script>
+    </script>
+    <style>
+        /* ===== RESET & BASE ===== */
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 100%;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Impact', 'Arial Black', 'system-ui', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #e5e5e5;
+            color: #1a1a1a;
+            line-height: 1.2;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            margin: 0;
+        }
+
+        img,
+        video {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        a {
+            color: #ff6b35;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* ===== SPACE SYSTEM ===== */
+        :root {
+            --gap: 32px;
+            --padding: 48px;
+            --section-gap: 80px;
+            --accent: #ff6b35;
+            --dark: #1a1a1a;
+            --light: #e5e5e5;
+            --border-w: 4px;
+        }
+
+        /* ===== TYPOGRAPHY ===== */
+        h1 {
+            font-size: clamp(3.5rem, 12vw, 7rem);
+            line-height: 0.9;
+            text-transform: uppercase;
+            letter-spacing: -0.03em;
+            font-weight: 900;
+            color: var(--dark);
+            margin-bottom: 0.5em;
+        }
+
+        h2 {
+            font-size: clamp(2.4rem, 7vw, 4rem);
+            line-height: 0.95;
+            text-transform: uppercase;
+            letter-spacing: -0.02em;
+            font-weight: 800;
+            border-left: var(--border-w) solid var(--accent);
+            padding-left: var(--gap);
+            margin-bottom: var(--gap);
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: -0.01em;
+        }
+
+        p {
+            font-family: 'system-ui', sans-serif;
+            font-size: 1.2rem;
+            font-weight: 400;
+            max-width: 70ch;
+        }
+
+        .mono {
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 700;
+        }
+
+        /* ===== BUTTONS & LINKS ===== */
+        .btn {
+            display: inline-block;
+            background: var(--dark);
+            color: var(--light);
+            padding: 16px 48px;
+            font-size: 1.6rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            border: var(--border-w) solid var(--dark);
+            transition: all 0.1s ease;
+            letter-spacing: 1px;
+            cursor: pointer;
+            text-align: center;
+            -webkit-appearance: none;
+            appearance: none;
+        }
+        .btn:hover {
+            background: var(--accent);
+            color: var(--dark);
+            border-color: var(--accent);
+            text-decoration: none;
+            transform: scale(0.98);
+        }
+        .btn--accent {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: var(--dark);
+        }
+        .btn--accent:hover {
+            background: var(--dark);
+            color: var(--accent);
+            border-color: var(--dark);
+        }
+
+        /* ===== HEADER / NAV ===== */
+        header {
+            background: var(--dark);
+            color: var(--light);
+            padding: var(--padding) var(--padding) calc(var(--padding) * 0.6);
+            border-bottom: var(--border-w) solid var(--accent);
+            position: relative;
+            width: 100%;
+        }
+
+        .header__inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: var(--gap);
+        }
+
+        .logo {
+            font-size: 2.8rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: -0.03em;
+            color: var(--light);
+            line-height: 1;
+        }
+        .logo span {
+            color: var(--accent);
+        }
+        .logo small {
+            display: block;
+            font-size: 0.9rem;
+            font-family: 'Courier New', monospace;
+            letter-spacing: 2px;
+            color: #888;
+        }
+
+        /* navigation */
+        .nav__list {
+            display: flex;
+            gap: var(--gap);
+            list-style: none;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .nav__list a {
+            color: var(--light);
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 8px 0;
+            border-bottom: 3px solid transparent;
+            transition: 0.1s;
+        }
+        .nav__list a:hover {
+            border-bottom-color: var(--accent);
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .nav__list .btn {
+            padding: 8px 24px;
+            font-size: 1rem;
+            background: var(--accent);
+            color: var(--dark);
+            border: 2px solid var(--accent);
+        }
+        .nav__list .btn:hover {
+            background: transparent;
+            color: var(--accent);
+        }
+
+        /* hamburger */
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 6px;
+            background: none;
+            border: 2px solid var(--light);
+            padding: 12px 12px;
+            cursor: pointer;
+            transition: 0.1s;
+        }
+        .hamburger span {
+            display: block;
+            width: 32px;
+            height: 4px;
+            background: var(--light);
+            transition: 0.1s;
+        }
+        .hamburger:hover {
+            border-color: var(--accent);
+        }
+        .hamburger:hover span {
+            background: var(--accent);
+        }
+
+        #nav-toggle {
+            display: none;
+        }
+        #nav-toggle:checked+.hamburger+.nav__list {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding: var(--gap) 0;
+        }
+
+        /* ===== MAIN ===== */
+        main {
+            flex: 1;
+            width: 100%;
+        }
+
+        /* ===== SECTION ===== */
+        section {
+            padding: var(--section-gap) var(--padding);
+            border-bottom: var(--border-w) solid var(--dark);
+            position: relative;
+        }
+        section:last-of-type {
+            border-bottom: none;
+        }
+
+        .section--invert {
+            background: var(--dark);
+            color: var(--light);
+        }
+        .section--invert h2 {
+            color: var(--light);
+            border-left-color: var(--accent);
+        }
+
+        /* ===== HERO ===== */
+        .hero {
+            background: var(--light);
+            padding-top: calc(var(--section-gap) * 1.4);
+            padding-bottom: calc(var(--section-gap) * 1.2);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            gap: var(--gap);
+        }
+        .hero::before {
+            content: 'RAW CONCRETE';
+            position: absolute;
+            top: -10%;
+            right: -5%;
+            font-size: 28vw;
+            font-weight: 900;
+            color: rgba(26, 26, 26, 0.04);
+            white-space: nowrap;
+            pointer-events: none;
+            z-index: 0;
+            line-height: 1;
+            transform: rotate(-6deg);
+        }
+        .hero>* {
+            position: relative;
+            z-index: 1;
+        }
+        .hero h1 {
+            max-width: 90%;
+        }
+        .hero p {
+            font-size: 1.8rem;
+            font-weight: 700;
+            background: var(--dark);
+            color: var(--light);
+            display: inline-block;
+            padding: 8px 24px;
+            transform: skewX(-4deg);
+            margin-bottom: var(--gap);
+        }
+        .hero .btn {
+            align-self: flex-start;
+            transform: skewX(-2deg);
+        }
+
+        /* ===== UGC REVIEW CARDS ===== */
+        .review-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: var(--gap);
+            margin-top: var(--gap);
+        }
+
+        .review-card {
+            background: var(--light);
+            border: var(--border-w) solid var(--dark);
+            padding: var(--gap);
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            position: relative;
+            transition: 0.1s;
+            transform: rotate(0deg);
+        }
+        .review-card:nth-child(odd) {
+            transform: rotate(0.8deg);
+        }
+        .review-card:nth-child(even) {
+            transform: rotate(-0.6deg);
+        }
+        .review-card:hover {
+            transform: rotate(0deg) scale(1.02);
+            border-color: var(--accent);
+        }
+
+        .review-card__author {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1.1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            border-bottom: 2px solid var(--dark);
+            padding-bottom: 8px;
+        }
+        .review-card__author .name {
+            font-family: 'Courier New', monospace;
+            background: var(--dark);
+            color: var(--light);
+            padding: 2px 12px;
+            letter-spacing: 1px;
+        }
+        .review-card__author .date {
+            font-size: 0.85rem;
+            color: #555;
+            font-weight: 400;
+        }
+
+        .review-card__stars {
+            display: flex;
+            gap: 4px;
+            font-size: 1.8rem;
+            line-height: 1;
+            letter-spacing: 2px;
+        }
+        .review-card__stars .star {
+            color: var(--accent);
+        }
+        .review-card__stars .star.empty {
+            color: #bbb;
+        }
+
+        .review-card__text {
+            font-family: 'system-ui', sans-serif;
+            font-size: 1rem;
+            line-height: 1.4;
+            font-weight: 400;
+            flex: 1;
+            border-left: 3px solid var(--accent);
+            padding-left: 12px;
+            margin-top: 4px;
+        }
+
+        /* ===== FEATURES / RAW LIST ===== */
+        .raw-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: var(--gap);
+            list-style: none;
+            margin-top: var(--gap);
+        }
+        .raw-list li {
+            background: var(--light);
+            border: var(--border-w) solid var(--dark);
+            padding: var(--gap);
+            font-size: 1.6rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            transform: skewX(-1deg);
+            transition: 0.1s;
+        }
+        .raw-list li:hover {
+            transform: skewX(0deg) scale(1.02);
+            border-color: var(--accent);
+            background: var(--accent);
+            color: var(--dark);
+        }
+        .raw-list li span {
+            font-size: 0.9rem;
+            font-family: 'Courier New', monospace;
+            font-weight: 400;
+            color: #666;
+        }
+
+        /* ===== CTA SECTION ===== */
+        .cta-block {
+            background: var(--accent);
+            color: var(--dark);
+            padding: var(--section-gap) var(--padding);
+            text-align: center;
+            border-top: var(--border-w) solid var(--dark);
+            border-bottom: var(--border-w) solid var(--dark);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: var(--gap);
+        }
+        .cta-block h2 {
+            border-left: none;
+            font-size: 3.6rem;
+            margin-bottom: 0;
+        }
+        .cta-block .btn {
+            border-color: var(--dark);
+            background: var(--dark);
+            color: var(--accent);
+        }
+        .cta-block .btn:hover {
+            background: transparent;
+            color: var(--dark);
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            background: var(--dark);
+            color: var(--light);
+            padding: var(--padding);
+            border-top: var(--border-w) solid var(--accent);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: var(--gap);
+            font-size: 0.9rem;
+        }
+        footer a {
+            color: var(--accent);
+        }
+        footer .copy {
+            font-family: 'Courier New', monospace;
+            letter-spacing: 1px;
+        }
+        footer .phone {
+            font-weight: 700;
+            font-size: 1.4rem;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 768px) {
+            :root {
+                --padding: 24px;
+                --gap: 24px;
+                --section-gap: 56px;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .nav__list {
+                display: none;
+                width: 100%;
+                flex-direction: column;
+                gap: 12px;
+                padding: var(--gap) 0;
+                border-top: 2px solid var(--accent);
+                margin-top: var(--gap);
+            }
+            #nav-toggle:checked+.hamburger+.nav__list {
+                display: flex;
+            }
+
+            .header__inner {
+                align-items: flex-start;
+            }
+
+            .hero h1 {
+                max-width: 100%;
+                font-size: clamp(2.8rem, 15vw, 4.5rem);
+            }
+            .hero p {
+                font-size: 1.2rem;
+                transform: none;
+                padding: 6px 16px;
+            }
+
+            h2 {
+                font-size: 2rem;
+                padding-left: 16px;
+            }
+
+            .review-card:nth-child(odd),
+            .review-card:nth-child(even) {
+                transform: none;
+            }
+
+            .raw-list li {
+                font-size: 1.2rem;
+                transform: none;
+            }
+
+            .cta-block h2 {
+                font-size: 2.4rem;
+            }
+
+            footer {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            :root {
+                --padding: 16px;
+                --gap: 16px;
+                --section-gap: 40px;
+            }
+            .logo {
+                font-size: 2rem;
+            }
+            .btn {
+                padding: 12px 32px;
+                font-size: 1.2rem;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+        }
+    </style>
 </head>
 <body>
 
-  <header class="glow-header">
-    <div class="nav-container">
-      <a href="index.html" class="logo-glow">강서 클럽</a>
-      <nav class="nav-links">
-        <a href="index.html">홈</a>
-        <a href="about.html">상세정보</a>
-        <a href="blog.html">블로그</a>
-      </nav>
-    </div>
-  </header>
+    <!-- HEADER -->
+    <header>
+        <div class="header__inner">
+            <div class="logo">
+                RAW<span>◼</span>CONCRETE
+                <small>강서 클럽 비교</small>
+            </div>
 
-  <section class="hero-glow">
-    <h1>강서 <span class="gradient-txt">클럽</span> 끝판왕 가이드</h1>
-    <p>강서 클럽 비교로 고민하는 형들 위해 광고 거품 싹 빼고 솔직하게 털어놓는 내돈내산 찐정보!</p>
-    <div class="phone-bar">
-      📞 예약 및 문의: <a href="tel:010-6279-0862">010-6279-0862</a>
-    </div>
-    <a href="about.html" class="neon-btn">자세한 정보 보러가기</a>
-  </section>
+            <input type="checkbox" id="nav-toggle" hidden>
+            <label for="nav-toggle" class="hamburger" aria-label="메뉴 열기">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
 
-  <main class="sec-wrap">
-    <div class="glass-box">
-      <h2>강서 클럽 솔직 비교분석</h2>
-      <p>안녕 형들! 요즘 강서 근처에서 클럽 갈 때 어디로 가야 눈탱이 안 맞고 가성비 좋게 잘 놀았다고 소문날지 고민 많지? 솔직히 인터넷에 널려있는 광고글들 보면 다 자기들이 최고라고만 하니까 어디를 믿어야 할지 하나도 모르겠더라고.</p>
-      <p>그래서 내가 형들 시간낭비, 돈낭비 하지 말라고 강서에 있는 클럽들 직접 발품 팔아보고 내돈내산으로 다녀와서 쓰는 리얼 후기를 준비했어. 솔직히 가격대부터 수질, 시설, 사운드랑 사장님 친절도까지 전부 따져보고 쓴 거라 이 가이드 하나만 보면 끝이야.</p>
-      <p>가장 중요한 꿀팁을 먼저 방출하자면, 무조건 예약하고 가는 게 이득이야. 그냥 워크인으로 가면 대기시간도 지치고 주말이나 피크타임에는 자리도 없어서 헛걸음하기 일쑤거든. 예약하고 가야 서비스 서비스대로 챙기고 가성비 세트로 놀 수 있어.</p>
+            <nav class="nav__list" aria-label="주요 메뉴">
+                <a href="#">홈</a>
+                <a href="#">클럽 랭킹</a>
+                <a href="#">리뷰</a>
+                <a href="#">비교</a>
+                <a href="tel:010-6279-0862" class="btn">전화</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" aria-label="히어로">
+            <h1>강서 클럽<br>진짜를<br>까발린다</h1>
+            <p>💥 찍먹 금지. 리뷰로 증명해.</p>
+            <a href="tel:010-6279-0862" class="btn btn--accent">☎ 지금 전화</a>
+        </section>
+
+        <!-- INTRO / ABOUT -->
+        <section>
+            <h2>왜 RAW CONCRETE?</h2>
+            <p style="font-size:1.6rem; font-weight:700; margin-bottom:var(--gap);">
+                강서구 클럽, 가짜 리뷰에 속지 마라. 진짜 클럽은 리뷰로 말한다.
+            </p>
+            <div class="raw-list">
+                <li>⚡ 유일한 비교 <span>직접 발로 뛰고 쓴다</span></li>
+                <li>🔥 리뷰 조작 없음 <span>유저의 생생한 목소리</span></li>
+                <li>💀 순위는 결과다 <span>까이는 클럽은 까인다</span></li>
+                <li>📢 운영자 전화 <span>010-6279-0862</span></li>
+            </div>
+        </section>
+
+        <!-- UGC REVIEWS -->
+        <section class="section--invert">
+            <h2>😤 유저의 증언</h2>
+            <p style="margin-bottom:var(--gap); max-width:100%;">
+                가짜 리뷰는 걸러라. 여기는 진짜만 있다.
+            </p>
+            <div class="review-grid">
+
+                <article class="review-card">
+                    <div class="review-card__author">
+                        <span class="name">🔥 클럽헌터</span>
+                        <span class="date">2024-11-03</span>
+                    </div>
+                    <div class="review-card__stars">
+                        <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star empty">★</span>
+                    </div>
+                    <div class="review-card__text">
+                        "V2 클럽 음악 좋고 분위기 끝판왕. 근데 주차가 빡셈. 그래도 갈만함."
+                    </div>
+                </article>
+
+                <article class="review-card">
+                    <div class="review-card__author">
+                        <span class="name">🧊 얼음땡</span>
+                        <span class="date">2024-10-27</span>
+                    </div>
+                    <div class="review-card__stars">
+                        <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+                    </div>
+                    <div class="review-card__text">
+                        "더블에이 클럽 최고. 매주 가는데 와꾸도 좋고 사장님 인심 쩔어. 강서 클럽 비교 1위."
+                    </div>
+                </article>
+
+                <article class="review-card">
+                    <div class="review-card__author">
+                        <
+
+
+
+<!-- PBN Recent Posts Feed Section -->
+<section class="recent-posts-section" aria-label="최신 글 피드" style="padding:60px 20px;background:#f7fafc;border-top:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0">
+  <div style="max-width:1100px;margin:0 auto">
+    <h3 style="font-size:1.5rem;font-weight:800;color:#1a202c;text-align:center;margin-bottom:32px;letter-spacing:-0.025em">📝 최신 관련 포스트</h3>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px">
       
-      <div class="phone-bar" style="text-align: center; background: rgba(255,255,255,0.02);">
-        📢 형들 실시간 예약은 이쪽으로 바로 때려! <br>
-        📞 <a href="tel:010-6279-0862">010-6279-0862</a> (터치 시 통화 연결)
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⚖️ COMPARE</span>
+          <time datetime="2026-06-10">2026-06-10</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">창작한 제목</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">MK울트라 프로젝트의 미스터리 서브프로젝트, 그 코드명과 목적을 밝히다 아, 진짜... MK울트라는 CIA의 비밀 프로젝트였으며, 스노렌은 NSA 내부고발자였다. 하지만 음모론과 사실의 차이는 간단히 설명하기 어렵다. ## 소제목1. **USB 원본 vs 언론 공개본 </p>
       </div>
+      <a href="posts/compare-001-17xhbec.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-05-24">2026-05-24</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">아날로그 문화 컬렉터들이 선정한 PBN 빌더 트렌드 정보 공유 리포트</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
+      </div>
+      <a href="posts/juice-1.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-05-24">2026-05-24</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">아날로그 문화 컬렉터들이 선정한 PBN 빌더 트렌드 정보 공유 리포트</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
+      </div>
+      <a href="posts/juice-2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-05-24">2026-05-24</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">1960년대 한국 영화 손글씨 포스터 서체(Typography)의 시각 디자인적 보존 가치</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
+      </div>
+      <a href="posts/normal-1.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-05-24">2026-05-24</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">전통 악기 장인들의 보존 노하우: 해금 실크 현(Silk String)의 천연 비왁스 코팅 기법</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
+      </div>
+      <a href="posts/normal-2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-05-24">2026-05-24</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">활판 인쇄술의 숨겨진 보석: 19세기 납 활자(Lead Type) 캐스팅 자형 조각 기술</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
+      </div>
+      <a href="posts/normal-3.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-06-05">2026-06-05</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">다크소울 1편의 잊혀진 데모 버전, 강서 클럽 비교와의 은밀한 연결</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">다크소울 1편의 출시 전 데모 버전은 많은 팬들이 알고 있지 못하는 숨겨진 보석이다. 이 버전에서만 존재했던 지역과 적 배치의 차이는 스피드러너들의 관심을 끌만하다. 특히, 특정 패치로 막힌 스킵 글리치의 프레임 단위 재현 조건을 이해하기 위해서는 이 데모 버전을 분석</p>
+      </div>
+      <a href="posts/review-001.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
     </div>
-
-    <div class="glass-box">
-      <h2>형들을 위한 3대 체크포인트</h2>
-      <div class="grid-container">
-        <div class="mini-card">
-          <h3>1. 가격 투명성 체크</h3>
-          <p>정찰제인지, 술 추가나 룸비 등 추가요금이 과하게 붙지 않는지 사전에 확실하게 예약할 때 유선으로 확인하는 게 눈탱이 방지의 지름길이야.</p>
-        </div>
-        <div class="mini-card">
-          <h3>2. 시설과 방음 인프라</h3>
-          <p>룸 사이즈가 넉넉하고 인테리어가 깔끔한지, 에어컨 필터 위생 상태나 방음이 잘 돼서 프라이빗하게 즐길 수 있는지가 노는 맛을 결정하지.</p>
-        </div>
-        <div class="mini-card">
-          <h3>3. 담당 실장의 마인드</h3>
-          <p>가장 중요한 부분이지. 형들이 케어받는 기분이 들도록 신경 써주는 실장님이 있어야 술맛도 살고 재방문 의사도 뿜뿜하게 되는 법이야.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="glass-box">
-      <h2>리얼 단골 형들의 찐 방문후기</h2>
-      
-      <div class="ugc-review">
-        <div class="reviewer-meta">
-          <span>마포불도저 (31세, 남)</span>
-          <span>★★★★★</span>
-        </div>
-        <p class="reviewer-text">"솔직히 강남 쪽만 다니다가 추천받아서 이쪽으로 와봤는데 가성비 미쳤음.. 실장님이 바가지 안 씌우고 서비스 팍팍 넣어줘서 친구들이랑 진짜 오랜만에 제대로 달렸습니다. 무조건 단골각임"</p>
-      </div>
-
-      <div class="ugc-review">
-        <div class="reviewer-meta">
-          <span>가성비헌터 (28세, 남)</span>
-          <span>★★★★☆</span>
-        </div>
-        <p class="reviewer-text">"예약 안 하고 갔으면 대기 탈 뻔했네요. 사전에 통화로 문의 드렸는데 엄청 친절하게 정찰 가격 알려주셔서 깔끔하게 놀고 왔습니다. 음향 시설이랑 방음도 빵빵해서 아주 만족스러워요."</p>
-      </div>
-
-      <div class="ugc-review">
-        <div class="reviewer-meta">
-          <span>야근러 (33세, 남)</span>
-          <span>★★★★★</span>
-        </div>
-        <p class="reviewer-text">"스트레스 가득 차서 달렸는데 시설 엄청 고급스럽고 럭셔리함. 인테리어 분위기가 좋아서 비즈니스 손님 모시고 가도 손색없을 정도입니다. 강력 추천합니다."</p>
-      </div>
-    </div>
-  </main>
-
-  <footer>
-    <p><strong>강서 클럽 찐후기 가이드 Portal</strong></p>
-    <p>주소: 서울특별시 강서구 일대 | 연락처: 010-6279-0862</p>
-    <p>
-      <a href="index.html">홈</a> | 
-      <a href="about.html">상세정보</a>
-      | <a href="blog.html">블로그</a>
-    </p>
-    <p style="margin-top: 16px; opacity: 0.5;">&copy; 2026 강서 클럽 Portal. All Rights Reserved. 본 사이트는 성인 전용 정보 포털입니다.</p>
-  </footer>
-
+  </div>
+</section>
 </body>
 </html>
