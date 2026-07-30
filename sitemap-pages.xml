@@ -1,254 +1,212 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://gangseo-club-tip.mapo-room-guide.xyz/about.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gangseo-club-tip.mapo-room-guide.xyz/blog.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/</loc>
-    <lastmod>2026-06-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://gangseo-club-tip.mapo-room-guide.xyz/about.html</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gangseo-club-tip.mapo-room-guide.xyz/blog.html</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/compare-001-17xhbec.html</loc>
-    <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/field_note-001-hlbn0y.html</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/juice-1.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/juice-2.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/normal-1.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/normal-2.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/normal-3.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/review-001.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260705-539.html</loc>
-    <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260705-1071.html</loc>
-    <lastmod>2026-07-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260705-539.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0289.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0290.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0291.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0292.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0293.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0294.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0295.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0296.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0297.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0298.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0299.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0300.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0301.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0302.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0303.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0304.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0360.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0361.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0287.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0288.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0289.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0290.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0291.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0292.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0293.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0294.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0295.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0296.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0297.html</loc>
-    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/juice-1.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/juice-2.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/normal-1.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/normal-2.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/normal-3.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gangseo-club-tip.mapo-room-guide.xyz/posts/review-001.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
